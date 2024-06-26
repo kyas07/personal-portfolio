@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images1/headlogo.png" type="../images1/headlogo.png/">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.1/iconify.min.js"
+    />
+    <title>Portfolio Website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+
+      
+    </style>
+  </head>
+
+  <body>
+    <!--===== HEADER =====-->
+    <header id="header">
+      <div class="containerhed">
+        <div class="logo">
+          <a href="#">
+            <img src="images1/flc_design20240608233881.png" alt="Logo" />
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home-slider owl-carousel bgadmin">
+          <div class="slider-item">
+            <div class="overlay"></div>
+            <div class="container-fluid px-md-0">
+              <div
+                class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                data-scroll-parent="true"
+              >
+                <div class="one-third order-md-last img">
+                  <div class="overlay"></div>
+                  <div class="overlay-1"></div>
+                </div>
+                <div
+                  class="one-forth d-flex align-items-center ftco-animate"
+                  data-scroll="properties: { translateY: '70%' }"
+                >
+                  <div class="text">
+                    <span class="subheading">Hello! There</span>
+                    <h1 class="mb-4 mt-3">
+                      I'm YASIN Creative <span>Full Stack</span> Developer And
+                      Web <span>Penetration</span> Tester
+                    </h1>
+                    <p>
+                      <a
+                        href="/cv/cv.pdf"
+                        download
+                        class="btn btn-primary-blue btn-outline-primary"
+                        >Download CV</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <div class="about-container">
+            <div class="about-image">
+              <img
+                src="./images1/photo_2024-05-28_00-16-53.jpg"
+                alt="Yasin's photo"
+              />
+            </div>
+            <div class="about-cards">
+              <div class="about-card">
+                <div class="about-content">
+                  <h2 class="about-subtitle clickable">I'm Yasin</h2>
+                  <p class="about-description">
+                    Hello! I'm Yasin, a dedicated web developer and web
+                    penetration tester with a passion for creating secure,
+                    dynamic, and user-friendly web applications. With a strong
+                    foundation in both web development and cybersecurity, I
+                    excel at transforming ideas into innovative digital
+                    solutions while ensuring they are robust and secure.
+                  </p>
+                </div>
+              </div>
+              <div class="about-card">
+                <div class="about-content">
+                  <h3 class="about-subtitle clickable">My Journey</h3>
+                  <p class="about-description">
+                    My journey into the world of technology began 10 years ago,
+                    sparked by a fascination with coding. Since then, I have
+                    dedicated myself to honing my skills and staying abreast of
+                    the latest industry trends. My background in insa has
+                    equipped me with the ability to tackle complex problems and
+                    deliver high-quality results.
+                  </p>
+                </div>
+              </div>
+              <div class="about-card">
+                <div class="about-content">
+                  <h3 class="about-subtitle clickable">What I Do</h3>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Front-End Development</h5>
+                    <p class="about-description">
+                      Crafting visually appealing interfaces using HTML5, CSS3,
+                      JavaScript, and frameworks like React and Vue.js.
+                    </p>
+                  </div>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Back-End Development</h5>
+                    <p class="about-description">
+                      Building robust server-side applications with Node.js,
+                      Express, and databases like MongoDB and MySQL.
+                    </p>
+                  </div>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Web Penetration Testing</h5>
+                    <p class="about-description">
+                      Identifying and mitigating security vulnerabilities using
+                      tools like Burp Suite, OWASP ZAP, and manual testing
+                      techniques to ensure web applications are secure against
+                      potential threats.
+                    </p>
+                  </div>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Full-Stack Solutions</h5>
+                    <p class="about-description">
+                      Integrating front-end and back-end technologies to create
+                      comprehensive web applications that are both powerful and
+                      secure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-card">
+                <div class="about-content">
+                  <h3 class="about-subtitle clickable">Certifications</h3>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">
+                      Information Network Security Administration (INSA)
+                    </h5>
+                    <p class="about-description">
+                      Certified in Cybersecurity with expertise in ethical
+                      hacking techniques, advanced cybersecurity measures, and
+                      risk management methodologies.
+                    </p>
+                  </div>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Evangadi Techs</h5>
+                    <p class="about-description">
+                      Full Stack Software Development
+                    </p>
+                  </div>
+                  <div class="about-submenu">
+                    <h5 class="about-subtitle">Cisco Networking (CCNA)</h5>
+                    <p class="about-description">
+                      Explore my CCNA certification work in network design,
+                      configuration, and troubleshooting with Cisco
+                      technologies. Discover projects and case studies
+                      demonstrating secure, efficient, and scalable network
+                      solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section id="skills" class="skills section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-content">
+            <div class="skills-icons">
+              <img src="images/html5.svg" alt="HTML" />
+              <span>HTML</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/css3.svg" alt="CSS" />
+              <span>CSS</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/python.svg" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/javascript.svg" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/jquery.svg" alt="jQuery" />
+              <span>jQuery</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/php.svg" alt="PHP" />
+              <span>PHP</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/mongodb.svg" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/react.svg" alt="React" />
+              <span>React</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/git.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/api.svg" alt="API" />
+              <span>API</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/fluter.svg" alt="Flutter" />
+              <span>Flutter</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/mysql-wordmark.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/wordpress.svg" alt="WordPress" />
+              <span>WordPress</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/firebase.svg" alt="Firebase" />
+              <span>Firebase</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/node-js.svg" alt="Node" />
+              <span>Node</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/expressjs-light.svg" alt="Express" />
+              <span>Express</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/file-jsx-bold.svg" alt="JSX" />
+              <span>JSX</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/bootstrap.svg" alt="Bootstrap" />
+              <span>Bootstrap</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/shopify.svg" alt="Shopify" />
+              <span>Shopify</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/adobe-photoshop.svg" alt="Photoshop" />
+              <span>Photoshop</span>
+            </div>
+            <div class="skills-icons">
+              <img src="images/xml.svg" alt="XML" />
+              <span>XML</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Why I'm Different?</h2>
+          </div>
+          <div>
+            <h3 class="section-text">
+              Transforming Digital Visions into Exceptional Realities:
+              <br />
+              Unleashing the Extraordinary in Every Line of Code.
+            </h3>
+          </div>
+          <br />
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h4 class="title">Web Penetration Test</h4>
+              <p class="description">
+                I secure your websites from cyber threats through comprehensive
+                web penetration testing. Using my expertise in web technologies
+                and ethical hacking, I identify and address vulnerabilities,
+                focusing on user authentication, data security, and other weak
+                points. I provide a clear report with issues found and
+                actionable solutions, along with tips for future security. This
+                ensures your online presence remains strong and protected.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+              <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <h4 class="title">Web Development</h4>
+              <p class="description">
+                I bring your website ideas to life using React. With expertise
+                in HTML, CSS, and JavaScript, I build responsive and interactive
+                websites. Leveraging the power of React's component-based
+                architecture, I create dynamic user interfaces and seamless user
+                experiences across devices and browsers.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+              <h4 class="title">Web Design</h4>
+              <p class="description">
+                I provide customized, visually stunning websites that prioritize
+                user experience. With a focus on aesthetics and branding, I
+                create captivating layouts that effectively communicate your
+                message. Using industry-standard tools, I ensure responsive and
+                user-friendly designs across all devices. From personal blogs to
+                e-commerce platforms, I deliver exceptional web design that
+                exceeds expectations.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="fa-solid fa-robot"></i></div>
+              <h4 class="title">Telegram Bot Development</h4>
+              <p class="description">
+                I create custom Telegram bots using Python and Node.js. These
+                bots automate tasks, provide information, and interact with
+                users on Telegram. Using the Telegram Bot API and libraries like
+                Telegraf or Node-telegram-bot-api, I build powerful and scalable
+                bots with message handling, webhook integration, and more.
+                Enhance your Telegram experience with a tailored bot.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="bi bi-phone"></i></div>
+              <h4 class="title">Mobile App</h4>
+              <p class="description">
+                I specialize in developing mobile apps using Flutter. With
+                Flutter's cross-platform framework, I create high-performance
+                and visually stunning apps for Android and iOS. From native-like
+                user experiences to integrating APIs, I deliver feature-rich
+                apps efficiently using a single codebase. Let's bring your app
+                idea to life with Flutter!
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="bi bi-display"></i></div>
+              <h4 class="title">Desktop App Development</h4>
+              <p class="description">
+                I develop desktop applications using JavaFX. With JavaFX's UI
+                controls and library support, I create visually appealing and
+                interactive apps for multiple operating systems. From responsive
+                user interfaces to backend integration, I deliver cross-platform
+                desktop solutions tailored to your needs. Let's bring your ideas
+                to life with JavaFX!
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="bi bi-hourglass-split"></i></div>
+              <h4 class="title">On Time</h4>
+              <p class="description">
+                Always responsible to complete any given project on time.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon"><i class="bi bi-pencil-square"></i></div>
+              <h4 class="title">Quick Learner</h4>
+              <p class="description">
+                Adapt rapidly to new technologies and methodologies,
+                consistently demonstrating the ability to acquire and apply new
+                skills efficiently in dynamic environments.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon"><i class="bi bi-wifi"></i></div>
+              <h4 class="title">Online</h4>
+              <p class="description">Easy to reach and happy to help.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section id="work" class="work portfloio section pt--10 pb--40">
+        <div class="container" data-aos="fade-up">
+          <div class="section--title pb--60 text-center">
+            <h2 class="h2 text-uppercase section-title">Portfolio</h2>
+          </div>
+          <br />
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/amazon.jpg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <a
+                      href="https://github.com/kyas07/Amazon"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="source code"
+                      ><i class="">Source Code</i></a
+                    >
+                    <br />
+                    <a
+                      href="https://amazon-661f77.netlify.app/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/apple-react.jpeg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <a
+                      href="https://github.com/Zed21-Code/Apple-React-fullstack-clone"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="source code"
+                      ><i class="">Source Code</i></a
+                    >
+                    <br />
+                    <a
+                      href="https://warm-pavlova-95870a.netlify.app/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/netfilex.jpeg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <a
+                      href="https://github.com/kyas07/netflix"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="source code"
+                      ><i class="">Source Code</i></a
+                    >
+                    <br />
+                    <a
+                      href="https://keen-bonbon-fac701.netlify.app/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/photo_2024-04-10_14-29-15.jpg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <br />
+                    <a
+                      href="https://hafutechs.com/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/Capture.jpg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <a
+                      href="https://github.com/kyas07/evangadiForum/tree/main/evangadiforum/Evangadi-Forum-Feb-2023-G4"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="source code"
+                      ><i class="">Source Code</i></a
+                    >
+                    <br />
+                    <a
+                      href="https://evangadiforumyasin.netlify.app/login"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="./images1/merkastu.jpg"
+                  class="img-fluid waving-text"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links btn-info">
+                    <a
+                      href="https://github.com/kyas07/evangadiForum/tree/main/evangadiforum/Evangadi-Forum-Feb-2023-G4"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="source code"
+                      ><i class="">Source Code</i></a
+                    >
+                    <br />
+                    <a
+                      href="https://merkastu.com/"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="live preview"
+                      ><i class="">Live Preview</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              placeholder="Message"
+              cols="0"
+              rows="6"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Send Message"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-1" style="padding-bottom: 15px">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#home"
+                    ><span class="fa fa-chevron-right mr-2"></span> Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#about"
+                    ><span class="fa fa-chevron-right mr-2"></span> About</a
+                  >
+                </li>
+                <li>
+                  <a href="#skills"
+                    ><span class="fa fa-chevron-right mr-2"></span> Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#projects"
+                    ><span class="fa fa-chevron-right mr-2"></span> Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact"
+                    ><span class="fa fa-chevron-right mr-2"></span> Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Web
+                    Penetration Test</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Web
+                    Design</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Web
+                    Development</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Telegram Bot
+                    Development</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Desktop App
+                    Development</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#services"
+                    ><span class="fa fa-chevron-right mr-2"></span> Mobile App
+                    Development</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-6">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><a href="">
+                    <span class="icon fa fa-map marker"></span
+                    ><span class="text"> Adiss Ababa Ethiopia</span></a>
+                  </li>
+                  <li class="liclass">
+                    <a href="tel:+251977641861"
+                      ><span class="icon fa fa-phone"> </span
+                      ><span class="text"> +251977641861</span></a
+                    >
+                  </li>
+                  <li class="liclass">
+                    <a href="mailto:ykedir007@gmail.com"
+                      ><span class="icon fa fa-paper-plane pr-4"></span
+                      ><span class="text"> ykedir007@gmail.com</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <ul class="ftco-footer-social list-unstyled mt-2">
+                <li class="ftco-animate">
+                  <a
+                    href="https://www.linkedin.com/in/yasin-kedir-083018285"
+                    target="_blank"
+                    ><span class="">in</span
+                  ></a>
+                </li>
+                <li class="ftco-animate icon">
+                  <a href="https://wa.me/251977641861" target="_blank"
+                    ><span class="icon fa fa-phone"></span
+                  ></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="https://t.me/httpsmr7" target="_blank"
+                    ><span class="icon fa fa-paper-plane"></span
+                  ></a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("nav-menu");
+        const menuIcon = document.querySelector(".menu-icon");
+        menu.classList.toggle("active");
+        menuIcon.classList.toggle("active");
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const header = document.getElementById("header");
+        const navLinks = document.querySelectorAll(".nav__link");
+        const hamburger = document.querySelector(".menu-icon");
+        const navLinksContainer = document.querySelector(".nav-links");
+
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+
+          let current = "";
+          document.querySelectorAll("section").forEach((section) => {
+            const sectionTop = section.offsetTop;
+            if (window.pageYOffset >= sectionTop - 70) {
+              current = section.getAttribute("id");
+            }
+          });
+
+          navLinks.forEach((link) => {
+            link.classList.remove("scroll-active");
+            if (link.getAttribute("href").includes(current)) {
+              link.classList.add("scroll-active");
+            }
+          });
+
+          if (
+            !current &&
+            window.pageYOffset < document.getElementById("home").offsetHeight
+          ) {
+            document
+              .querySelector('.nav__link[href="#home"]')
+              .classList.add("scroll-active");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            navLinks.forEach((item) => item.classList.remove("active"));
+            link.classList.add("active");
+          });
+        });
+
+        hamburger.addEventListener("click", (e) => {
+          hamburger.classList.toggle("active");
+          navLinksContainer.classList.toggle("active");
+          e.stopPropagation();
+        });
+
+        document.addEventListener("click", (e) => {
+          if (
+            !navLinksContainer.contains(e.target) &&
+            !hamburger.contains(e.target)
+          ) {
+            navLinksContainer.classList.remove("active");
+            hamburger.classList.remove("active");
+          }
+        });
+
+        // About section toggle for mobile view
+        const clickableElements = document.querySelectorAll(".clickable");
+
+        clickableElements.forEach((element) => {
+          element.addEventListener("click", () => {
+            const parentCard = element.closest(".about-card");
+            parentCard.classList.toggle("active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
